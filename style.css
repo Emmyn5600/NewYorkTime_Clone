@@ -101,7 +101,7 @@ img {
     display: block;
 }
 
-#author_name {
+.author_name {
     padding-top: 20px;
     margin-left: 350px;
     color: #333;
@@ -135,7 +135,7 @@ ul {
     text-decoration: none;
 }
 
-#small_line {
+.small_line {
     max-width: 5%;
     margin-left: 550px;
 }
@@ -150,16 +150,16 @@ aside {
     width: 10%;
 }
 
-#article_title {
+.article_title {
     margin-left: 200px;
 }
-#article_line {
+.article_line {
     max-width: 30%;
     margin-top: 6px;
     margin-left: 200px;
 }
 
-#article_head_line {
+.article_head_line {
     display: inline;
     padding-top: 10px;
     font-size: 9px;
@@ -177,7 +177,7 @@ a {
   font-size: 1.20rem;
 }
 
-#inflation_title {
+.inflation_title {
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 24px;
@@ -187,7 +187,6 @@ a {
   margin-left: 140px;
 }
 .inflation_summary {
-  font-size: 16px;
   font-size: 1rem;
   line-height: 23px;
   line-height: 1.4375rem;
@@ -197,12 +196,32 @@ a {
   margin-left: 140px;
 }
 
-.infation_image {
-  display: flex;
-  justify-content: flex-start;
+.inflation_image {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+}
+.inflation_image_position {
+  flex: 50%;
 }
 .inflation_image_info {
-  display: flex;
+    flex: 20%;
+}
+.inflation_line {
+  margin-top: 20px;
+  max-width: 5%;
+  margin-left: 140px;
+}
+.story-info {
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin-left: 140px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
 }
 .caption_video {
     color: #666;
@@ -220,7 +239,7 @@ a {
     display: block;
     font-size: 1.20rem;
 }
-#image2 {
+.image2 {
     padding-top: 20px;
     height: auto;
     max-width: 70%;
@@ -242,7 +261,6 @@ a {
     color: rgb(102, 102, 102);
     margin-bottom: 10px;
 }
-
 .read_comment_2 {
   background-color: rgb(86, 123, 149);
   border: none;
@@ -282,7 +300,6 @@ a {
 }
 .body_content_image_1 img {
     margin-left: 40px;
-    /* padding: 0; */
     padding-right: 4px;
     font-size:0;
 }
