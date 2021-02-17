@@ -277,7 +277,7 @@ a {
   width: 350px;
   margin-bottom: 60px;
 }
-#small_line_2 {
+.small_line_2 {
     margin-left: 100px;
     max-width: 60%;
     margin-bottom: 10px;
