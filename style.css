@@ -7,22 +7,48 @@ html {
   height: 100%;
   margin: 0px;
   overflow-x: hidden;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: 'nyt-imperial',georgia,'times new roman',times,serif;
 }
 .head_position {
   height: 50px;
-  position: sticky;
-  /* background-color: brown; */
 }
-/* button .search_button {
-    size: 10px;
-} */
+
+.first_head_title a{
+  font-size: 14.25px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+  margin-left: 80px;
+}
+.head_button {
+  margin-left: 1150px;
+}
+.subscribe_button{
+  background-color: rgb(86, 123, 149);
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+}
+.login {
+  background-color: rgb(86, 123, 149);
+  border-radius: 3px;
+  width: 70px;
+  height: 30px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 0.05em;;
+}
+
 svg {
     width: 64px; height: 64px;
     transform: scale(4);
     margin-left: 600px;
-    padding-bottom: 25px;
-    font-size: 100%
+    font-size: 100%;
+    margin-top: -50px;
 }
 path {
     fill: black !IMPORTANT;
@@ -34,8 +60,10 @@ path {
     float: inline-end;
 }
 
-#head_line {
-    width: 1000px;
+.head_line {
+    width: 1400px;
+    color: red;
+    background-color: red;
 }
 
 h1 {
@@ -60,7 +88,7 @@ hr {
 img {
     padding-top: 20px;
     height: auto;
-    max-width: 65%;
+    max-width: 67%;
     margin-left: 200px;
 }
 .caption_image1 {
@@ -215,7 +243,7 @@ a {
     margin-bottom: 10px;
 }
 
-#read_comment_2 {
+.read_comment_2 {
   background-color: rgb(86, 123, 149);
   border: none;
   color: white;
