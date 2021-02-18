@@ -18,7 +18,7 @@ html {
     flex-direction: column;
     max-width: 70%;
   }
-  #logoHeader {
+  #Head_logo {
     position: fixed;
     height: 45px;
     justify-content: space-around;
@@ -26,7 +26,7 @@ html {
     border-bottom: 1px solid rgb(202, 202, 202);
     background-color: white;
   }
-  #logoHeader .logo {
+  #Head_logo .logo {
     margin-top: -10px ;
   }
   .logo {
