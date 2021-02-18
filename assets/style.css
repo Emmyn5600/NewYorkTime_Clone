@@ -266,8 +266,10 @@ aside {
 }
 
 iframe {
-   margin-left: 350px;
-   margin-top: 30px;
+  margin-left: 350px;
+  margin-top: 30px;
+  width: 560px;
+  height: 315px;
 }
 
 .article_title {
