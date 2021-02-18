@@ -108,15 +108,15 @@ a {
   margin-bottom: 3px;
 }
 
-.body_content_image_1 a:hover {
-  text-decoration: underline;
-}
-
 .menuDiv a {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
+}
+
+.body_content_image_1 a:hover {
+  text-decoration: underline;
 }
 
 .navBtns {
