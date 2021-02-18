@@ -328,13 +328,18 @@ iframe {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto;
   padding: 10px;
+  margin-left: -10px;
 }
 
 .inflation_image_position {
   display: inline-block;
   padding: 10px;
   font-size: 10px;
-  text-align: left;
+}
+
+.inflation_image_position_info {
+  margin-top: 120px;
+  font-size: 12px;
 }
 
 .inflation_image_info {
