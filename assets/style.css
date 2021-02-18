@@ -265,6 +265,11 @@ aside {
   margin-top: -550px;
 }
 
+iframe {
+   margin-left: 350px;
+   margin-top: 30px;
+}
+
 .article_title {
   margin-left: 200px;
 }
