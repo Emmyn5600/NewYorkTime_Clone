@@ -482,11 +482,16 @@ iframe {
   flex: 10;
 }
 
-.bottomhome {
+.home_bottom_button {
   flex: 1;
   font-size: 11px;
   display: flex;
   align-items: flex-end;
+}
+
+.home_bottom_button a {
+  color: #000;
+  font-size: 10px;
 }
 
 .bottomflex {
@@ -494,13 +499,20 @@ iframe {
   flex-direction: column;
 }
 
-.bottomnavflex {
+.bottomn_part {
   display: flex;
   width: 70%;
   margin: 0 auto 0 auto;
   height: 420px;
   border-bottom: 0.5px solid #ccc;
   margin-bottom: 25px;
+}
+
+.bottomn_part a {
+  color: #000;
+  font-size: 15px;
+  padding-top: 10x;
+  margin-bottom: 10px;
 }
 
 .bottomnavpart {
@@ -511,6 +523,7 @@ iframe {
 }
 
 .bottomnavtitle {
+  margin-bottom: 10px;
   color: rgb(51, 51, 51);
   font-weight: bold;
   font-size: 13px;
@@ -521,5 +534,6 @@ iframe {
   margin: 0 auto auto auto;
   display: flex;
   justify-content: space-around;
-  font-size: 10px;
+  font-size: 11px;
+  padding-bottom: 20px;
 }
