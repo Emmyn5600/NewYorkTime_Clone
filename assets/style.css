@@ -5,7 +5,7 @@
 
 html {
   height: 100%;
-  margin: 0px;
+  margin: 0 ;
   overflow-x: hidden;
   font-family: 'nyt-imperial', georgia, 'times new roman', times, serif;
 }
@@ -30,12 +30,12 @@ html {
   background-color: white;
 }
 
-#Head_logo .logo {
-  margin-top: -10px;
-}
-
 .logo {
   max-width: 20%;
+}
+
+#Head_logo .logo {
+  margin-top: -10px;
 }
 
 .logoDiv {
@@ -51,10 +51,33 @@ html {
   width: 200px;
 }
 
+img {
+  padding-top: 20px;
+  height: auto;
+  max-width: 67%;
+  margin-left: 200px;
+}
+
+.image_column_side img {
+  height: 20%;
+  width: 10%;
+}
+
+.body_content_image_1 img {
+  margin-left: 40px;
+  padding-right: 4px;
+  font-size: 0;
+}
+
 .menuDiv a img {
   max-width: 25%;
   margin-left: 20px;
 }
+
+a {
+  text-decoration: none;
+}
+
 
 .menuDiv a {
   display: flex;
@@ -136,7 +159,6 @@ html {
   color: white;
   cursor: pointer;
   letter-spacing: 0.05em;
-  ;
 }
 
 .head_line {
@@ -182,13 +204,6 @@ hr {
 .social_media .social_media_york {
   margin-left: 390px;
   padding-top: 20px;
-}
-
-img {
-  padding-top: 20px;
-  height: auto;
-  max-width: 67%;
-  margin-left: 200px;
 }
 
 .caption_image1 {
@@ -251,11 +266,6 @@ aside {
   margin-top: -550px;
 }
 
-.image_column_side img {
-  height: 20%;
-  width: 10%;
-}
-
 .article_title {
   margin-left: 200px;
 }
@@ -270,10 +280,6 @@ aside {
   display: inline;
   padding-top: 10px;
   font-size: 9px;
-}
-
-a {
-  text-decoration: none;
 }
 
 .content_2_paragraph {
@@ -423,12 +429,6 @@ a {
   display: block;
   float: left;
   height: auto;
-}
-
-.body_content_image_1 img {
-  margin-left: 40px;
-  padding-right: 4px;
-  font-size: 0;
 }
 
 .content_image_caption {
