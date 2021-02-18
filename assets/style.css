@@ -357,10 +357,14 @@ a {
   width: 350px;
   margin-bottom: 60px;
 }
+.social_comment_button .social_media_york {
+    margin-left:750px;
+    margin-top: -110px;
+}
 .small_line_2 {
     margin-left: 100px;
     max-width: 60%;
-    margin-bottom: 10px;
+    margin-top: 80px;
 } 
 #section_2_title {
     color: black;
