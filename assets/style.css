@@ -69,6 +69,10 @@ img {
   font-size: 0;
 }
 
+.content_image_article {
+
+}
+
 .menuDiv a img {
   max-width: 25%;
   margin-left: 20px;
@@ -443,20 +447,25 @@ iframe {
   text-decoration: underline;
 }
 
+.body_content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
 .body_content_image_1 {
-  width: 33%;
-  text-align: center;
-  display: block;
-  float: left;
-  height: auto;
+  width: 30%;
+  display: inline-block;
+  padding: 10px;
+  font-size: 15px;
 }
 
 .content_image_caption {
-  margin-right: 7px;
+  margin-right: 2px;
   color: #666;
   font-size: 0.6rem;
-  line-height: 1.125rem;
-  margin-left: 200px;
+  line-height: 1.15rem;
+  margin-left: 110px;
   display: block;
 }
 
