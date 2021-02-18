@@ -161,36 +161,6 @@ a {
   cursor: pointer;
 }
 
-.head_button {
-  margin-left: 1150px;
-}
-
-.subscribe_button {
-  background-color: rgb(86, 123, 149);
-  border-radius: 3px;
-  text-transform: uppercase;
-  color: white;
-  height: 30px;
-  cursor: pointer;
-}
-
-.login {
-  background-color: rgb(86, 123, 149);
-  border-radius: 3px;
-  width: 70px;
-  height: 30px;
-  text-transform: uppercase;
-  color: white;
-  cursor: pointer;
-  letter-spacing: 0.05em;
-}
-
-.head_line {
-  width: 1400px;
-  color: red;
-  background-color: red;
-}
-
 h1 {
   padding-top: 100px;
 }
