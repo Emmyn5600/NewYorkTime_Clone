@@ -124,23 +124,6 @@ html {
   letter-spacing: 0.05em;;
 }
 
-svg {
-    width: 64px; height: 64px;
-    transform: scale(4);
-    margin-left: 600px;
-    font-size: 100%;
-    margin-top: -50px;
-}
-path {
-    fill: black !IMPORTANT;
-}
-.button {
-    background-color: brown;
-}
-.menu_button #subscribe {
-    float: inline-end;
-}
-
 .head_line {
     width: 1400px;
     color: red;
@@ -148,7 +131,7 @@ path {
 }
 
 h1 {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .first_head h1 {
     color: #121212;
@@ -158,12 +141,28 @@ h1 {
     position: relative;
     width: calc(100% - 40px);
     max-width: 600px;
-    margin-left: 20px;
     margin-left: 400px;
 }
 hr {
     max-width: 40%;
     margin-left: 400px;
+}
+
+.social_media_york ul li {
+  width: 25px;
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 18px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.social_media_york :hover {
+    color: white;
+}
+.social_media .social_media_york {
+   margin-left: 390px;
+   padding-top: 20px;
 }
 
 img {
