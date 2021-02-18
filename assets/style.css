@@ -20,23 +20,22 @@ html {
   }
   #logoHeader {
     position: fixed;
-    height: 42px;
+    height: 45px;
     justify-content: space-around;
     align-items: stretch;
     border-bottom: 1px solid rgb(202, 202, 202);
     background-color: white;
-    padding: 0;
-    margin: 0 auto;
-    top: 0;
+  }
+  #logoHeader .logo {
+    margin-top: -10px ;
   }
   .logo {
-    max-width: 18%;
+    max-width: 20%;
   }
   
   .logoDiv {
     flex: 4;
     margin-left: 180px;
-    padding-bottom: 30px;
     align-items: center;
   }
   .menuDiv {
@@ -75,16 +74,11 @@ html {
       text-decoration: underline;
   }
   
-  .logoHeaderBtns {
+  .logoHeadBtns {
     flex: 1;
     justify-content: start;
     align-items: center;
-  }
-  
-  .headerBtn1 {
-    margin-right: 7px;
-  }
-  
+  }  
   .headerbtn {
     background-color: rgb(72, 101, 145);
     color: #fff;
