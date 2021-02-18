@@ -8,11 +8,98 @@ html {
   margin: 0px;
   overflow-x: hidden;
   font-family: 'nyt-imperial',georgia,'times new roman',times,serif;
-}
-.head_position {
-  height: 50px;
-}
-
+} 
+ .flex {
+  display: flex;
+  }
+  .imgDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70%;
+  }
+  #logoHeader {
+    position: fixed;
+    height: 42px;
+    justify-content: space-around;
+    align-items: stretch;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    background-color: white;
+    padding: 0;
+    margin: 0 auto;
+    top: 0;
+  }
+  .logo {
+    max-width: 18%;
+  }
+  
+  .logoDiv {
+    flex: 4;
+    margin-left: 180px;
+    padding-bottom: 30px;
+    align-items: center;
+  }
+  .menuDiv {
+    display: flex;
+    align-items: stretch;
+    flex: 1;
+    width: 200px;
+  }
+  
+  .menuDiv a img {
+    max-width: 25%;
+    margin-left: 20px;
+  }
+  
+  .menuDiv a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  .navBtns{
+      padding-bottom: 20px;
+  }
+  .navBtns:hover {
+      background-color: rgb(202, 202, 202);
+  }
+  
+  .navlinks {
+    flex: 1;
+    font-size: 13px;
+    color: black;
+    margin-left: 60px;
+    font-weight: bold;
+  }
+  .navlinks:hover {
+      text-decoration: underline;
+  }
+  
+  .logoHeaderBtns {
+    flex: 1;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .headerBtn1 {
+    margin-right: 7px;
+  }
+  
+  .headerbtn {
+    background-color: rgb(72, 101, 145);
+    color: #fff;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    border: 0 transparent;
+    height: 30px;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-top: 9px;
+  }
+  
+  .headerbtn:hover {
+    background-color: rgb(58, 94, 146);
+    cursor: pointer;
+  }  
 .first_head_title a{
   font-size: 14.25px;
   color: black;
