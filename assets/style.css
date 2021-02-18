@@ -396,3 +396,66 @@ a {
     margin-left: 200px;
     display: block;
 }
+.bottomdate {
+    color: #888;
+    font-size: 12px;
+  }
+  
+  .bottomlogohome {
+    margin: 0 auto 0 auto;
+    max-width: 70%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 2px double #e2e2e2;
+    margin-bottom: 20px;
+  }
+  
+  .bottomlogo {
+    display: flex;
+    align-items: flex-start;
+    flex: 10;
+  }
+  
+  .bottomhome {
+    flex: 1;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .bottomflex {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bottomnavflex {
+    display: flex;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    height: 420px;
+    border-bottom: 0.5px solid #ccc;
+    margin-bottom: 25px;
+  }
+  
+  .bottomnavpart {
+    text-align: left;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bottomnavtitle {
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .footer {
+    max-width: 80%;
+    margin: 0 auto auto auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+  }
