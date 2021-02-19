@@ -314,15 +314,23 @@ iframe {
   margin-left: -10px;
 }
 
+.inflation_image_position img {
+  height: 50px;
+  width: 70px;
+}
+
 .inflation_image_position {
   display: inline-block;
-  padding: 10px;
   font-size: 10px;
+  width: 90px;
 }
 
 .inflation_image_position_info {
-  margin-top: 120px;
-  font-size: 12px;
+  margin-top: 70px;
+  padding: 8px;
+  font-size: 10px;
+  height: 100px;
+  width: 150px;
 }
 
 .inflation_image_info {
