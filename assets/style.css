@@ -74,8 +74,8 @@ a {
 }
 
 .inflation_image_position img {
-  height: 50px;
-  width: 70px;
+  height: 90px;
+  width: 100px;
 }
 
 .bottomeditordiv img {
@@ -157,7 +157,7 @@ a {
   display: inline-block;
   font-size: 13px;
   color: black;
-  margin-left: -10px;
+  margin-left: -13px;
   font-weight: bold;
   margin-top: 15px;
 }
@@ -358,7 +358,6 @@ iframe {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto;
   padding: 10px;
-  margin-left: -10px;
 }
 
 .inflation_image_position {
@@ -368,7 +367,7 @@ iframe {
 }
 
 .inflation_image_position_info {
-  margin-top: 70px;
+  margin-top: 110px;
   padding: 8px;
   font-size: 10px;
   height: 100px;
