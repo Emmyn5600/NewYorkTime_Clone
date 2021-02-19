@@ -198,6 +198,7 @@ hr {
 .social_media .social_media_york {
   margin-left: 390px;
   padding-top: 20px;
+  margin-bottom: 60px;
 }
 
 .caption_image1 {
@@ -416,6 +417,7 @@ iframe {
 .social_comment_button .social_media_york {
   margin-left: 750px;
   margin-top: -110px;
+  
 }
 
 .small_line_2 {
@@ -449,6 +451,141 @@ iframe {
   line-height: 1.15rem;
   margin-left: 110px;
   display: block;
+}
+
+.mostpopulardiv {
+  margin-top: 550px;
+  display: flex;
+  flex-direction: column;
+  max-width: 55%;
+  float: right;
+  height: 20px;
+  margin-right: 18%;
+}
+
+.mostpopulartitle {
+  text-align: left;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #333;
+}
+
+.mostpopulartext {
+  font-size: 14px;
+  flex: 1;
+  border-top: 1px solid #888;
+  text-align: left;
+  line-height: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.mostpopulartext a {
+  color: #000;
+}
+
+.mostpopulartext a:hover {
+  text-decoration: underline;
+} 
+
+.moreonspaceh3 {
+  color: #333;
+  font-weight: bold;
+  max-width: 45%;
+  margin-left: 5%;
+  text-align: left;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  border-top: 1px solid #666;
+}
+
+.moreonspaceh3 a {
+  color: #000;
+  font-size: 15px;
+}
+
+.moreonspace {
+  display: flex;
+  flex-wrap: wrap;
+  height: 520px;
+  max-width: 70%;
+  margin-left: -12%;
+}
+
+.moreonspacedivs {
+  flex-basis: 250px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.moreonspacetxt {
+  color: black;
+  text-decoration: none;
+}
+
+.moreonspacetxt:hover {
+  text-decoration: underline black;
+}
+
+.moreonspaceimg {
+  max-width: 100%;
+}
+
+.moreonspacedivs p {
+  font-size: 12px;
+  margin-right: 10px;
+  background-color: lawngreen;
+  margin-left: 50px;
+}
+
+.bottomdate {
+  color: #888;
+  font-size: 12px;
+}
+
+.bottomeditorh3 {
+  color: #333;
+  font-weight: bold;
+  max-width: 45%;
+  margin-left: 3%;
+  text-align: left;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  border-top: 1px solid #666;
+}
+
+.endpageeditorsdiv {
+  display: flex;
+  height: 320px;
+  max-width: 65%;
+  margin-left: 1%;
+  justify-content: space-evenly;
+}
+
+.bottomeditordiv {
+  flex-basis: 275px;
+  text-align: left;
+}
+
+.bottomeditordiv img {
+  margin-left: 10%;
+}
+
+.moreonspacetxt {
+  color: black;
+  text-decoration: none;
+  
+}
+
+.moreonspacetxt:hover {
+  text-decoration: underline black;
+}
+
+.moreonspacetxt p {
+  /* margin-bottom: 10px; */
+  margin-left: 30px;
 }
 
 .bottomdate {
