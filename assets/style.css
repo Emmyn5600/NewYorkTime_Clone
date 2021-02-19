@@ -181,24 +181,31 @@ hr {
   margin-left: 400px;
 }
 
-.social_media_york ul li {
-  width: 25px;
-  display: inline-block;
-  background-color: #ccc;
-  margin-left: 18px;
-  margin-bottom: 5px;
+.social_media {
+  display: flex;
+  width: 30%;
+  height: 35px;
+  margin: 0 0 20px 30%;
+  margin-top: 20px;
+}
+
+.social_media_york {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #eee;
   border-radius: 50%;
-  cursor: pointer;
+  border: 1px solid #eee;
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+  margin-left: 15px;
 }
 
-.social_media_york :hover {
-  color: white;
-}
-
-.social_media .social_media_york {
-  margin-left: 390px;
-  padding-top: 20px;
-  margin-bottom: 60px;
+.social_media_york:hover {
+  border: 1px solid rgb(82, 82, 82);
+  background-color: white;
 }
 
 .caption_image1 {
@@ -414,9 +421,10 @@ iframe {
   margin-bottom: 60px;
 }
 
-.social_comment_button .social_media_york {
-  margin-left: 750px;
+.social_comment_button .social_media {
+  margin-left: 730px;
   margin-top: -110px;
+  padding: 20px;
   
 }
 
