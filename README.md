@@ -3,15 +3,16 @@
 # Microverse - Week 1 Positioning and Floating
 
 A project that is based on using various css positioning techniques (float, flex and grid).
-![Screenshot](screenshot.png)
+![Screenshot](./assets/screenshot.png)
 
 # Uses With
+- HTML and CSS
 - Flex Box
 - CSS Grid
 - Floating Elements
 
 #Live Demo
-
+- https://emmyn5600.github.io/NewYorkTime_Clone/
 
 # Authors
 
