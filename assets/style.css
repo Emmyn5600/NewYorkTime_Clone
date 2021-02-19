@@ -48,7 +48,7 @@ html {
   display: flex;
   align-items: stretch;
   flex: 1;
-  width: 200px;
+  width: 100px;
 }
 
 img {
@@ -128,7 +128,6 @@ a {
 }
 
 .navlinks {
-  flex: 1;
   font-size: 13px;
   color: black;
   margin-left: 60px;
@@ -154,6 +153,7 @@ a {
   border-radius: 3px;
   font-weight: bold;
   margin-top: 9px;
+  padding: 5px;
 }
 
 .headerbtn:hover {
